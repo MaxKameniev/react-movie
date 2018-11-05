@@ -1,0 +1,224 @@
+.moviecard_blc {
+    width: 100%;
+}
+
+.moviecard-background-poster {
+    position: relative;
+}
+
+.moviecard-background-img {
+    display: none;
+    background-size: cover;
+    height: calc(60vh - 60px);
+    -webkit-box-shadow: 0px 18px 28px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 18px 28px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 18px 28px 0px rgba(0,0,0,0.31);
+    margin-bottom: 5vw;
+}
+
+.moviecard-poster-blc {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.moviecard-poster-img {
+    display: block;
+    height: 50vh;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 4px 4px rgba(255,255,255,1);
+    margin-bottom: 20px;
+}
+
+.moviecard-poster-title {
+    margin-top: 5px; 
+    margin-left: 20px;
+    flex-basis: 60%;
+    color: #4c4145;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.loader-wrapper {
+    position: relative;
+    width: 100%;
+    line-height: 100%;
+}
+
+.loader-wrapper > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
+.moviecard-tagline {
+    display: none;
+    position: absolute;
+    font-family: 'Acme', sans-serif;
+    color: #fe5059;
+    font-size: 25px;
+    top: 25px;
+    right: 35px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.moviecard-poster-title > h1 {
+    font-weight: 500;
+    font-size: px;
+    margin-bottom: 5px;
+}
+
+.moviecard-poster-title > span {
+    font-size: 15px;
+    font-weight: 600;
+} 
+
+.moviecard-time > i {
+    font-size: 15px;    
+    margin-right: 5px;
+}
+
+.moviecard-time {
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+.moviecard-rate {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.moviecard-rate > span {
+    padding: 5px 10px;
+    background-color: #fe505a;
+    font-size: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+} 
+
+.moviecard-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.moviecard-decription-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #4c4145;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.moviecard-h2-title {
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #4c4145;
+}
+
+.moviecard-h2-title::before {
+    content: "";
+    border-left: 3px solid #fe505a;
+    margin-right: 10px;
+}
+
+.moviecard-trailer-video {
+    width: 100%;
+    height: 170px;
+}
+
+.moviecard-description-blc {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+
+.moviecard-trailer-blc {
+    flex-basis: 100%;
+}
+
+.moviecard-slider-blc {
+    width: 700px;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+.moviecard-slider-img {
+    /* width: 100px; */
+    height: 200px;
+}
+
+@media (min-width: 480px) {
+    .moviecard-poster-blc {
+        width: 100%;
+        flex-wrap: nowrap;
+        position: absolute;
+        top: 10vw;
+        left: 5%;
+        margin-bottom: 0;
+    }
+
+    .moviecard-poster-img {
+        height: 35vh;
+        margin-bottom: 0;
+    }
+    
+    .moviecard-description-blc {
+        flex-basis: 39%;
+    }
+    
+    .moviecard-trailer-blc {
+        flex-basis: 59%;
+    }
+
+    .moviecard-background-img {
+        display: block;
+    }
+
+    .moviecard-poster-title {
+        margin-top: 5px; 
+        margin-left: 20px;
+        flex-basis: 60%;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+        text-align: left;
+    }
+
+    .moviecard-trailer-video {
+        height: 200px;
+    }
+}
+
+
+@media (min-width: 999px) {
+    .moviecard-poster-img {
+        margin-bottom: 0;
+    }
+
+    .moviecard-tagline {
+        display: block;
+    }
+
+    .moviecard-trailer-video {
+        height: 250px;
+    }
+
+
+}

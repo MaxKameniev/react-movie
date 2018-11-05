@@ -1,0 +1,32 @@
+.search_res_wrapper {
+    position: absolute;
+    z-index: 200;
+    width: 50vw;
+    background-color: #f5f6f7;
+}
+
+.search_res_blc {
+    display: flex;
+    margin: 10px 0 20px 20px;
+}
+
+.search_res_img {
+    display: block;
+    height: 80px;
+}
+
+.search_res_text {
+    margin: 0 10px 0 10px;
+}
+
+.search_res_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.search_res_overview {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+}

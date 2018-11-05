@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover , a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+body {
+  line-height: 1;
+  }
+  
+ul {
+  padding: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+input {
+  border: none;
+}
+

@@ -1,0 +1,12 @@
+.movie-wrapper {
+    width: 100%;
+    max-width: 100rem;
+    min-width: 20rem;
+    margin: auto;
+  }
+  
+  @media (min-width: 768px){
+    .movie-wrapper {
+      display: flex;
+  }
+  }
